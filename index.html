@@ -54,7 +54,6 @@
         const FISH_COLORS = ['#ff5733', '#33ff57', '#3357ff', '#ff33f6', '#f6ff33'];
 
         // Audio Context (Initialize on first user interaction)
-        let audioCtx;
         function playBloopSound() {
             if (!audioCtx) {
                 audioCtx = new (window.AudioContext || window.webkitAudioContext)();
